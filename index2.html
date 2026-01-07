@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: lightblue;
+        }
+        header{
+            background-color: cornflowerblue;
+            display: flex;
+        }
+        header h1{
+            color: white;
+            padding: 20px;
+            width: 40%;
+        }
+        header nav{
+            width: 60%;
+            text-align: right;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        nav a{
+            text-decoration: none;
+            padding: 20px;
+            color: white;
+        }
+        header img{
+            width: 70px;
+            height: 50px;
+            border-radius: 50%;
+            margin: 10px;
+        }
+        article, aside, .card, details{
+            background-color: aliceblue;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 3px 5px 7px 5px darkgrey; 
+        }
+        section{
+            display: flex;
+        }
+        article{
+            width: 70%;
+        }
+        aside{
+            width: 25%;
+        }
+        aside ol{
+            list-style-type: none;
+        }
+        .card{
+            width: 25%;
+        }
+        footer{
+            background-color: blue;
+            text-align: center;
+            font-size: small;
+            padding: 20px;
+            color: aliceblue;
+        }
+        details{
+            border-left: 5px solid green;
+        }
+        a.hover{
+            color: pink;
+        }
+        article:hover, aside:hover, figure:hover{
+            box-shadow: 3px 5px 3px lightgrey;
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Photo/Sea_Animal.png" alt="logo">
+        <h1>Water Creatures</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index1.html">Land Animals</a>
+            <a href="index2.html">Water Animals</a>
+            <a href="##">About us</a>
+            <a href="##">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2 style="text-align: center;">About Water Animals</h2>
+                <p>Water animals are incredibly diverse creatures living in fresh or saltwater, adapted with features like streamlined bodies, gills (or lungs for mammals/reptiles), fins/flippers, and specialized senses for efficient movement, breathing, and survival in aquatic environments, ranging from tiny plankton to giant whales, playing vital roles in ecosystems like nutrient cycling. Key examples include fish (sharks, clownfish), mammals (whales, dolphins, seals), invertebrates (crabs, jellyfish, octopus, starfish), and reptiles (turtles).</p>
+            </article>
+            <aside>
+                <h2 style="text-align: center;">Announcement</h2>
+                <ol>
+                    <li>Herbivorous</li>
+                    <li>Carnivorous</li>
+                    <li>Omnivore</li>
+                </ol>
+            </aside>
+        </section>
+        <section>
+            <figure class="card">
+                <img src="Photo/dolphin.png" alt="dolphin" style="width: 100%;">
+                <figcaption>Dolphin</figcaption>
+            </figure>
+            <figure class="card">
+                <img src="Photo/Deep_Ocean.png" alt="Ocean" style="width: 100%;">
+                <figcaption>Deep In The Ocean</figcaption>
+            </figure>
+            <figure class="card">
+                <img src="Photo/JellyFish.png" alt="kangaroo" style="width: 100%;">
+                <figcaption>JellyFish</figcaption>
+            </figure>
+        </section>
+        <details>
+            <summary>Click to see more information</summary>
+            <p>Blue Whale: The largest animal that has ever lived.</p>
+        </details>
+        <details>
+            <summary>Click to see more information</summary>
+            <p>Sperm Whale: The deepest diving mammal (over 1,000 meters).</p>
+        </details>
+        <details>
+            <summary>Click to see more information</summary>
+            <p>Parrotfish: They produce much of the white sand on tropical beaches.</p>
+        </details>
+    </main>
+    <footer>Copyright &copy; 2025 | All Right Reserved</footer>
+</body>
+</html>

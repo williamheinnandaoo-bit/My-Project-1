@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: beige;
+            display: flex;
+        }
+        header h1{
+            color: black;
+            padding: 20px;
+            width: 40%;
+        }
+        header nav{
+            width: 60%;
+            text-align: right;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        nav a{
+            text-decoration: none;
+            padding: 20px;
+            color: white;
+        }
+        header img{
+            width: 70px;
+            height: 50px;
+            border-radius: 50%;
+            margin: 10px;
+        }
+        article, aside, .card, details{
+            background-color: aliceblue;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 3px 5px 7px 5px darkgrey; 
+        }
+        section{
+            display: flex;
+        }
+        article{
+            width: 70%;
+        }
+        aside{
+            width: 25%;
+        }
+        aside ol{
+            list-style-type: none;
+        }
+        .card{
+            width: 25%;
+        }
+        footer{
+            background-color: beige;
+            text-align: center;
+            font-size: small;
+            padding: 20px;
+            color: black;
+        }
+        details{
+            border-left: 5px solid green;
+        }
+        a.hover{
+            color: pink;
+        }
+        article:hover, aside:hover, figure:hover{
+            box-shadow: 3px 5px 3px lightgrey;
+            transform: scale(1.02);
+        }
+        body{
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Photo/Animals.png" alt="logo">
+        <h1>Animals</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index1.html">Land Animals</a>
+            <a href="index2.html">Water Animals</a>
+            <a href="##">About us</a>
+            <a href="##">Contact</a>
+        </nav>
+    </header>
+    <section>
+        <figure class="card">
+            <img src="Photo/William.png" alt="boy" style="width: 100%;">
+            <figcaption>William</figcaption>
+        </figure>
+    <section>
+        <figure class="card">
+            <img src="Photo/Phone_Khant.png" alt="boy" style="width: 100%;">
+            <figcaption>Phone Khant</figcaption>
+        </figure>
+        <figure class="card">
+            <img src="Photo/Phoo_Pwint_Kyaw.png" alt="girl" style="width: 100%;">
+            <figcaption>Phoo Pwint Khaw</figcaption>
+        </figure>
+        <figure class="card">
+            <img src="Photo/Shwe_Eaindray_Shin.jpg" alt="girl" style="width: 100%;">
+            <figcaption>Shwe Eaindray Shin</figcaption>
+        </figure>
+    </section>
+    <main>
+        <section>
+            <article>
+                <h2 style="text-align: center;">Title</h2>
+                <p>Hello</p>
+                <p>We're students from Morado Year-7, Room-3</p>
+                <p>Today, we're going to be presenting about Amimals.</p>
+                <hr>
+                <h3>About Animals</h3>
+                <p>Animals are diverse, multicellular, eukaryotic organisms in Kingdom Animalia, characterized by their ability to move, consume organic material for energy (heterotrophy), breathe oxygen, and develop from a blastula. They range from tiny insects to giant whales, form complex ecosystems, and are broadly classified as vertebrates (with backbones) or invertebrates (without). The study of animals is called zoology, and they possess unique features like specialized systems for movement, sensing, digestion, and reproduction.</p>
+            </article>
+            </section>
+            <aside>
+                <h2 style="text-align: center;">Announcement</h2>
+                <ol>
+                    <li>Herbivorous</li>
+                    <li>Carnivorous</li>
+                    <li>Omnivore</li>
+                </ol>
+            </aside>
+        </section>
+        <details>
+            <summary>Click to see more information</summary>
+            <p>Herbivorous are the animals that only eat plants.</p>
+        </details>
+        <details>
+            <summary>Click to see more information</summary>
+            <p>Carnivorous are the animals that only eat meat.</p>
+        </details>
+        <details>
+            <summary>Click to see more information</summary>
+            <p>Omnivore are the animals that eat both plants and meat. </p>
+        </details>
+    </main>
+    <footer>Copyright &copy; 2025 | All Right Reserved</footer>
+</body>
+</html>

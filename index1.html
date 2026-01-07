@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: lightgreen;
+        }
+        header{
+            background-color: mediumaquamarine;
+            display: flex;
+        }
+        header h1{
+            color: white;
+            padding: 20px;
+            width: 40%;
+        }
+        header nav{
+            width: 60%;
+            text-align: right;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        nav a{
+            text-decoration: none;
+            padding: 20px;
+            color: white;
+        }
+        header img{
+            width: 70px;
+            height: 50px;
+            border-radius: 50%;
+            margin: 10px;
+        }
+        article, aside, .card, details{
+            background-color: aliceblue;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 3px 5px 7px 5px darkgrey; 
+        }
+        section{
+            display: flex;
+        }
+        article{
+            width: 70%;
+        }
+        aside{
+            width: 25%;
+        }
+        aside ol{
+            list-style-type: none;
+        }
+        .card{
+            width: 25%;
+        }
+        footer{
+            background-color: green;
+            text-align: center;
+            font-size: small;
+            padding: 20px;
+            color: aliceblue;
+        }
+        details{
+            border-left: 5px solid green;
+        }
+        a.hover{
+            color: pink;
+        }
+        article:hover, aside:hover, figure:hover{
+            box-shadow: 3px 5px 3px lightgrey;
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Photo/Land_Animal.png" alt="logo">
+        <h1>Land Animals</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index1.html">Land Animals</a>
+            <a href="index2.html">Water Animals</a>
+            <a href="##">About us</a>
+            <a href="##">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2 style="text-align: center;">About Land Animals</h2>
+                <p>Land animals, also called terrestrial animals, are creatures that live primarily on land rather than in water, using legs to walk, run, or hop, and inhabiting diverse habitats like forests, deserts, and grasslands, encompassing mammals (elephants, lions, dogs), reptiles, insects, and birds, categorized further as wild (tigers, bears) or domestic (horses, cows, pets). They possess adaptations like bones for structure (mammals, reptiles) or exoskeletons (insects) for life on land, requiring food, water, and shelter to survive.</p>
+            </article>
+            <aside>
+                <h2 style="text-align: center;">Announcement</h2>
+                <ol>
+                    <li>Herbivorous</li>
+                    <li>Carnivorous</li>
+                    <li>Omnivore</li>
+                </ol>
+            </aside>
+        </section>
+        <section>
+            <figure class="card">
+                <img src="Photo/Elephant.png" alt="elephant" style="width: 100%;">
+                <figcaption>Elephant</figcaption>
+            </figure>
+            <figure class="card">
+                <img src="Photo/Cheetah.png" alt="cheetah" style="width: 100%;">
+                <figcaption>Cheetah</figcaption>
+            </figure>
+            <figure class="card">
+                <img src="Photo/Kangaroo.png" alt="kangaroo" style="width: 100%;">
+                <figcaption>Kangaroo</figcaption>
+            </figure>
+        </section>
+        <details>
+            <summary>Click to see more information</summary>
+            <p>African Bush Elephant: The largest land animal.</p>
+        </details>
+        <details>
+            <summary>Click to see more information</summary>
+            <p>Cheetah: The fastest land animal (up to 70 mph).</p>
+        </details>
+        <details>
+            <summary>Click to see more information</summary>
+            <p>Kangaroo: The only large animal that cannot walk backward.</p>
+        </details>
+    </main>
+    <footer>Copyright &copy; 2025 | All Right Reserved</footer>
+</body>
+</html>
